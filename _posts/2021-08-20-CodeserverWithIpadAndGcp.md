@@ -1,3 +1,17 @@
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+
 >들어가기에 앞서.<br>
 >본 문서는 리눅스와 GCP 배경지식이 없는 사람들을 대상으로 설명하는 문서입니다. 
 
