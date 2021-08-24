@@ -1,10 +1,10 @@
 ---
 title: "GCP를 사용해 어디서나 VScode를 사용해보자"
 categories:
-  - Blog
+  - linux
 tags:
-  - link
-  - Post Formats
+  - vscode
+  - GCP, GCE
 ---
 
 >들어가기에 앞서.<br>
