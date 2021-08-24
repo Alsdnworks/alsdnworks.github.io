@@ -1,13 +1,13 @@
 ---
-title: 리눅스에서 C, C++ 컴파일하고 디버깅하기"
+title: 리눅스에서 C, C++ 컴파일하고 디버깅하기
 categories:
   - linux
 tags:
-  - 컴파일러
-  - 디버거
+  - compiler
+  - debugger
 ---
 
-#리눅스에서 C, C++ 컴파일하고 디버깅하기
+# 리눅스에서 C, C++ 컴파일하고 디버깅하기
 
 **1. 컴파일러 설치**
 
@@ -24,9 +24,8 @@ sudo apt-get install -y gdb #gdb 디버거 설치
 
 테스트를 위한 코드를 작성해 test.c나 test.cpp로 저장해둔다.
 bool 함수를 통해 a+b가 falsy한 경우에 hello_world를 출력하는 간단한 예제를 만들었다.
-<details>
-<summary>타이핑하기 귀찮다면</summary>
-<div markdown="1">
+
+타이핑하기 귀찮다면
 
 ~~~
 bool func(int a, int b){
@@ -42,8 +41,6 @@ if(func(a,b))
 }	
 ~~~
 
-</div>
-</details>
 .c의 경우
 
 >gcc test.c -g -o src
