@@ -7,7 +7,6 @@ tags:
   - debugger
 ---
 
-# 리눅스에서 C, C++ 컴파일하고 디버깅하기
 
 <br>
 **1. 컴파일러 설치**
@@ -63,15 +62,15 @@ ls로 실행파일이 생성되었는지 확인하고 src를 디버깅해봅시
 
 gdb src -gdb
 
-(gdb 대기화면)
+![gdbmain](./img/gdbmain.jpg)
 
 run을 입력하면 전체 코드가 실행된다.
 
-(true 리턴화면)
+![gdbrun](./img/gdbrun.jpg)
 
 break 함수명
 
-(함수에서 break된 모습)
+![gdbbreak](./img/gdbbreak.jpg)
 
 함수의 시작점에서 중단점이 적중되면 다음과 같은 화면을 볼 수있다.
 
