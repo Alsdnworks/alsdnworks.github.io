@@ -20,7 +20,7 @@ html {
   }
 
   @include breakpoint($x-large) {
-  //데탑모드일때 크기변경
+  //데탑모드일때 크기변경-
     font-size: 18px;
   }
 
