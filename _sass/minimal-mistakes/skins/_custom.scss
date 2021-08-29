@@ -3,8 +3,13 @@
    ========================================================================== */
 
 /* Colors */
+$gray                       : #1976d2 !default;
+$dark-gray                  : mix(#000, $gray, 40%) !default;
+$darker-gray                : mix(#000, $gray, 60%) !default;
+$light-gray                 : mix(#fff, $gray, 50%) !default;
+$lighter-gray               : mix(#fff, $gray, 90%) !default;
 $background-color: #CEE3F6 !default;
-$text-color: #00495f !default;
+$text-color: #00232e !default;
 $primary-color: #084B8A !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color      : $lighter-gray !default;
