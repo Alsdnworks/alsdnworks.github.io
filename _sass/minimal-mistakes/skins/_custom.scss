@@ -4,11 +4,11 @@
 
 /* Colors */
 $background-color: #CEE3F6 !default;
-$text-color: #01A9DB !default;
+$text-color: #00495f !default;
 $primary-color: #084B8A !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
-$code-background-color: mix(#000, $background-color, 15%) !default;
-$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+$code-background-color      : $lighter-gray !default;
+$code-background-color-dark : $light-gray !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
 $footer-background-color: mix($primary-color, #000, 10%) !default;
 $link-color: $primary-color !default;
