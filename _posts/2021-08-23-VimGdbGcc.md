@@ -5,6 +5,7 @@ categories:
 tags:
   - compiler
   - debugger
+toc: true
 ---
 
 <br>
