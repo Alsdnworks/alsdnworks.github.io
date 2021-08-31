@@ -5,18 +5,12 @@ categories:
 tags:
   - vscode
   - GCP, GCE
+ toc: true 
 ---
 
-## 작업순서
-
- 1. GCP 컴퓨트엔진 생성
- 2. Termius 설치 및 GCP-instance연결
- 3. code-server설치
- 4. GCP 방화벽 설정
- 5. code-server 실행
-
 <br>
- **1. GCP 컴퓨트엔진 생성**
+
+ ## 1. GCP 컴퓨트엔진 생성
 <br>
 코드서버가 설치될 구글클라우드플랫폼(이하 GCP)을 생성한다.<br>
 아래 링크의 GCP VM Instance 생성 방법을 따라 무료 컴퓨팅엔진을 생성하면 된다.<br>
@@ -24,7 +18,8 @@ tags:
 >https://kibua20.tistory.com/94
 
 <br>
-**2. Termius설치 및 GCP-인스턴스에 연결**
+
+## 2. Termius설치 및 GCP-인스턴스에 연결
 <br>
 iPad에 Termius를 설치한다. Termius는 SSH를 통해 GCP에 연결을 위한 터미널 앱이다. <br>
 GCP서버 접속을 위해서 RSA키를 사용할것이다.<br>
@@ -67,7 +62,8 @@ key에서 아까만든 RSA키를 넣어주고 save 하면 GCP로 연결되는 �
 
 <br>
 <br>
-**3. code-server설치**
+
+## 3. code-server설치
 <br>
 코드서버의 설치는 GCP콘솔에서 다음과 같이 입력해주면 된다.<br>
 
@@ -86,8 +82,7 @@ sudo ufw allow 8080/tcp
 
 <br>
 
-**4. 인스턴스 방화벽설정**
-
+## 4. 인스턴스 방화벽설정
 <br>
 설치한 code-server를 외부에서 접속하기위한 과정이다.<br> 확실히 해야하는 과정인지는 모르겠으나 이를 건너뛰고 작업했을때 문제가 생긴다면 해보는걸 추천한다.<br>
 <br>
@@ -134,7 +129,8 @@ sudo vi
 >https://jhnyang.tistory.com/54
 
 <br>
- **6. 코드서버실행**
+
+ ## 6. 코드서버실행
  <br>
 SSH환경설정까지 끝났다면 터미널에 다음 명령어를 입력해준다.<br>
 <br>
@@ -157,7 +153,8 @@ not serving HTTPS
 code-server 설치 시 사용한 비밀번호를 입력해준다.<br>
 정상적으로 VSCODE가 실행되었길 바란다.<br>
 <br>
-**후기와 잡설.**
+
+## 후기와 잡설.
 <br>
 어쩌다 구한 아이패드로 공부해볼까 했는데 IDE가 없다는 것에 절망했다가 
 <br>돌파구를 찾던 중 발견한 여러 자료를 종합해 글을 써봤다.

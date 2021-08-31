@@ -10,7 +10,7 @@ toc: true
 
 <br>
 
-**1. 컴파일러 설치**
+## 1. 컴파일러 설치
 <br>
 
 gcc, g++, gdb설치
@@ -23,7 +23,7 @@ sudo apt-get install -y gdb #gdb 디버거 설치
 
 <br> 
 
-**2. 소스코드 컴파일** 
+## 2. 소스코드 컴파일 
 <br>
 
 테스트를 위한 두가지 코드를 작성해 test.c 나 test.cpp로 저장해둔다.<br>
@@ -51,7 +51,7 @@ sudo apt-get install -y gdb #gdb 디버거 설치
 <br>
 <br>
 
-**3. GDB로 디버깅하기**
+## 3. GDB로 디버깅하기
 <br>
 
 ls로 실행파일이 생성되었는지 확인하고 src를 디버깅해보도록한다.
