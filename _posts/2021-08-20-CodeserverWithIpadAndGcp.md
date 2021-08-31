@@ -5,12 +5,12 @@ categories:
 tags:
   - vscode
   - GCP, GCE
- toc: true 
+toc: true 
 ---
 
 <br>
 
- ## 1. GCP 컴퓨트엔진 생성
+## 1. GCP 컴퓨트엔진 생성
 <br>
 코드서버가 설치될 구글클라우드플랫폼(이하 GCP)을 생성한다.<br>
 아래 링크의 GCP VM Instance 생성 방법을 따라 무료 컴퓨팅엔진을 생성하면 된다.<br>
@@ -130,7 +130,7 @@ sudo vi
 
 <br>
 
- ## 6. 코드서버실행
+## 5. 코드서버실행
  <br>
 SSH환경설정까지 끝났다면 터미널에 다음 명령어를 입력해준다.<br>
 <br>
