@@ -154,10 +154,10 @@ $max-width: $x-large !default;
 /*
    Grid
    ========================================================================== */
-
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+//페이지 여백 설정 위치
+$right-sidebar-width-narrow: 100px !default; //200px def
+$right-sidebar-width: 200px !default; //300px def
+$right-sidebar-width-wide: 250px !default; //400px def
 
 /*
    Other

@@ -1,66 +1,28 @@
 /* ==========================================================================
-   Custom skin
+   Dark skin
    ========================================================================== */
 
 /* Colors */
-$gray                       : #1976d2 !default;
-$dark-gray                  : mix(#000, $gray, 40%) !default;
-$darker-gray                : mix(#000, $gray, 60%) !default;
-$light-gray                 : mix(#fff, $gray, 50%) !default;
-$lighter-gray               : mix(#fff, $gray, 90%) !default;
-$background-color: #CEE3F6 !default;
-$text-color: #00232e !default;
-$primary-color: #084B8A !default;
+$background-color: #323a4b !default;
+$text-color: #eaeaea !default;
+$primary-color: #00adb5 !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
-$code-background-color      : $lighter-gray !default;
-$code-background-color-dark : $light-gray !default;
+$code-background-color: mix(#000, $background-color, 15%) !default;
+$code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
-$footer-background-color: mix($primary-color, #000, 10%) !default;
-$link-color: $primary-color !default;
+$footer-background-color: mix(#000, $background-color, 30%) !default;
+$link-color: mix($primary-color, $text-color, 40%) !default;
 $link-color-hover: mix(#fff, $link-color, 25%) !default;
 $link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
-/* notices */
-$notice-background-mix: 90% !default;
-$code-notice-background-mix: 95% !default;
-
-/* neon syntax highlighting (base16) */
-$base00: #ffffff !default;
-$base01: #e0e0e0 !default;
-$base02: #d0d0d0 !default;
-$base03: #b0b0b0 !default;
-$base04: #000000 !default;
-$base05: #101010 !default;
-$base06: #151515 !default;
-$base07: #202020 !default;
-$base08: #ff0086 !default;
-$base09: #fd8900 !default;
-$base0a: #aba800 !default;
-$base0b: #00c918 !default;
-$base0c: #1faaaa !default;
-$base0d: #3777e6 !default;
-$base0e: #ad00a1 !default;
-$base0f: #cc6633 !default;
-
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
 .page__footer-follow .social-icons i,
 .page__footer-follow .social-icons .svg-inline--fa  {
   color: inherit;
-}
-
-/* next/previous buttons */
-.pagination--pager {
-  color: $text-color;
-  background-color: $primary-color;
-  border-color: transparent;
-
-  &:visited {
-    color: $text-color;
-  }
 }
 
 .ais-search-box .ais-search-box--input {

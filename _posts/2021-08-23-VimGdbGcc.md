@@ -6,6 +6,7 @@ tags:
   - compiler
   - debugger
 toc: true
+classes: wide
 ---
 
 <br>
