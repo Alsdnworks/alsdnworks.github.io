@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "About"
-    url: https://alsdnworks.wixsite.com/mysite/about
+  - title: "Gallery"
+    url: https://alsdnworks.wixsite.com/mysite
   - title: "Category"
     url: "/categories/"
   # - title: "About"
