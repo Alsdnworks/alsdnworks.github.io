@@ -1,10 +1,10 @@
 ---
 title: 자바실무 제 1강[KNU 2021-2]
 categories:
-  - linux
+  - KNU
 tags:
-  - compiler
-  - debugger
+  - JAVA
+  - GUI
 toc: true
 ---
 
