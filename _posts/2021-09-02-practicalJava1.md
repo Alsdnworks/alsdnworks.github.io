@@ -42,12 +42,11 @@ Swing 컴포넌트는 운영체제에 의존하지 않아 일관적인 GUI 표�
 ~~모위키에 의하면 요즘은 둘다 도태된 패키지라고한다.~~
 ## 3. Swing GUI Components
 
-### 3.1. Object
-(사진1)
+![java_1](/assets/img/java_1.png) 
 
-객체|&lt;-컴포넌트              |&lt;-컨테이너&lt;-Jcomponent(대부분 스윙컴포넌트)
-    |          &lt;- AWT컴포넌트|          &lt;-JFrame, JApplet, JDialog.. AWT컴포넌트를 상속받는 클래스-최상위컨테이너
-    AWT클래스                  Swing클래스 <-이거 그림으로 좀 
+### 3.1. Object
+AWT컴포넌트를 상속받는 클래스-최상위컨테이너
+
 ### 3.2. Frame
 Swing에서 Jframe은 컴포넌트를 담는 '그릇'이다. 창이라고 보면 된다.
 
