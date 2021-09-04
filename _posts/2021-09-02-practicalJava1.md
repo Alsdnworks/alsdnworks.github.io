@@ -8,8 +8,6 @@ tags:
 toc: true
 ---
 
-작성중..
-
 # 👨‍💻🏫KNU 2021-2 SW & media 자바실무 필기노트 1
 
 
@@ -62,7 +60,7 @@ Swing에서 Jframe은 컴포넌트를 담는 '그릇'이다. 창이라고 보면
    2. main() method 작성
    3. Frame에 Swing Component를 attachment
    <br>
-~~~
+~~~java
     //스윙 패키지사용을 위한 import 문
     import java.awt.(경로명) //그래픽처리를 위한 클래스 경로
     import java.awt.event(경로명) //AWT 이벤트 사용을 위한 경로명
@@ -71,7 +69,7 @@ Swing에서 Jframe은 컴포넌트를 담는 '그릇'이다. 창이라고 보면
 ~~~
 
 예제1. Create 300*300 Sized Swing Frame
-~~~
+~~~java
     import javax.swing.(경로명);
     public class MyFrame extends JFrame{
         public MyFrame(){
