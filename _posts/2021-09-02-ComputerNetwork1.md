@@ -13,10 +13,9 @@ toc: true
 ## 1. 통신 기술과 데이터 통신망🌐🤖
 
 ### 1.1. 컴퓨터 시스템사이의 통신 
+![img1](/assets/img/network_1.png)
 컴퓨터구조론에서 지겹게 본 그것 맞다.
-(사진0)
-단말기-통신시스템
-			중앙처리장치(io ch)
+
 			
 ### 1.2. 분산시스템(distributed systems)
 컴퓨팅 자원을 `공유` 하고 `확장 축소`에 용이하게 하며 <br> 
@@ -38,7 +37,6 @@ toc: true
 ## 2. 데이터 통신 시스템📞
 
 ### 2.1. 데이터 통신 시스템의 구성
-사진1
 
 | 구성 요소 | 장치 |
 |--|--|
@@ -48,7 +46,7 @@ toc: true
 |컴퓨터|  |
 
 ### 2.2. 통신 소프트웨어
-사진2<br>	
+
 데이터 전송회선과 통신제어장치를 사용하여 컴퓨터와 단말기 사이 정보 송수신을 위한 프로그램
 
 ~~교수님 진도가 너무 빠릅니다...~~
@@ -63,12 +61,12 @@ toc: true
 - 타이밍(언제) : 전송속도 조절, 전송 순서 조정 등을 포함
   
 ### 3.2. 컴퓨터 통신망 구조 
-컴퓨터 통신을 위한 프로토콜은 초기 여러 회사에서 선점 시도하였으나 현재는 국제표준기관인 ISO의 OSI7계층모델을 사용한다.
-Computer Network Architecture
-IBM- SNA
-DEC- DNA
-. . .
-ISO- `OSI 7 Layered Reference Model`
-(사진3)
+컴퓨터 통신을 위한 프로토콜은 초기 여러 회사에서 선점 시도하였으나 현재는 국제표준기관인 ISO의 OSI7계층모델을 사용한다.<br>
+Computer Network Architecture<br>
+IBM- SNA<br>
+DEC- DNA<br>
+. . .<br>
+ISO- `OSI 7 Layered Reference Model`<br>
+![img1](/assets/img/network_2.png)
 
 > Written with [StackEdit](https://stackedit.io/).
