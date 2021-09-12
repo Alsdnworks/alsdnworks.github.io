@@ -70,7 +70,7 @@ Swing에서 Jframe은 컴포넌트를 담는 '그릇'이다. 창이라고 보면
 
 예제1. Create 300*300 Sized Swing Frame
 ~~~java
-    import javax.swing.(경로명);
+    import javax.swing.*;
     public class MyFrame extends JFrame{
         public MyFrame(){
             setTitle("Title"); //title
@@ -83,3 +83,4 @@ Swing에서 Jframe은 컴포넌트를 담는 '그릇'이다. 창이라고 보면
         }
     }
   ~~~
+
