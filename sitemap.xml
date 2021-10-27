@@ -2,28 +2,227 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
 
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
-
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-
-    </url>
-  {% endfor %}
+<url>
+   <loc>https://alsdnworks.github.io/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/page2/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/feed.xml</loc>
+   <lastmod>2021-10-27T12:55:15+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/categories/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/javapre12/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/linux/raspberryimg/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/javapre11/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/python/CovidAutorun/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/Database7_2/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/page3/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/page6/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/Database56/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/python/makeDCbot/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/ComputerNetwork7/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/ComputerNetwork6/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/ComputerNetwork5/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/page4/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/page5/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/Database4/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/database5quiz/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/SWENGRreport/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/Database3/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/ComputerNetwork4/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/ComputerNetwork3/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/Database2/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/ComputerNetwork2/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/Database7_1/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/javapre3/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/javapre2/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/Database1/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/practicalJava1/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/knu/ComputerNetwork1/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/linux/VimTuto/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/linux/VimGdbGcc/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/linux/CodeserverWithIpadAndGcp/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://alsdnworks.github.io/tags/</loc>
+   <lastmod>2021-10-26T10:33:39+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
 </urlset>
