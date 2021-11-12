@@ -4,7 +4,7 @@ categories:
   - KNU
 tags:
   - Network
-OTC: true
+toc: true
 ---  
 
 # 👨‍💻🏫KNU 2021-2 SW & media 컴퓨터 네트워크 필기 노트 8
