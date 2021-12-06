@@ -97,10 +97,14 @@ BufferedWriter out = new BufferedWriter(new OutputStreamWriter(socket.getOutputS
 <table>
 <tr>
 <th>
+
 서버
+
 </th>
 <th>
+
 클라이언트
+
 </th>
 </tr>
 <tr>
@@ -153,6 +157,7 @@ public class ServerEx {
 	}
 }
 ~~~
+
 </th>
 
 <th>
