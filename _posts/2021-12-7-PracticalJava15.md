@@ -62,6 +62,19 @@ TCP/IP 네트워크를 이용하여 쉽게 통신 프로그램을 작성하도�
 |bool isConnected()|소켓이 연결되어있다면 true반환|
 |void setSoTimeout(int timeout)|소켓의 타임아웃 시간을 지정. 0이면 타임아웃 없음|
 
+~~~java
+String outputMessage = scanner.nextLine();
+out.write(outputMessage +'\n');
+out.flush();
+//한 행의 문자열 전송
+
+String line = in.readLine();
+//한행의 문자열 수신
+
+clientSocket.close();
+//접속종료
+~~~
+
 |서버소켓 클래스 생성자|설명|
 |-|-|
 | <span style="color:#00FFFF"> ServerSocket(int port)</span> |지정된 포트번호에 결합된 소켓 생성|
@@ -76,6 +89,15 @@ TCP/IP 네트워크를 이용하여 쉽게 통신 프로그램을 작성하도�
 |bool isClosed()|서버 소켓이 닫혀있다면 true반환|
 |void setSoTimeout(int timeout)|accept()의 타임아웃 시간을 지정. 0이면 타임아웃 없음|
 
+~~~java
+ServerSocket serverSocket = new ServerSocket(port);
+Socket socket = serverSocket.accept();
+//접속 대기, 연결 요청시 클라이언트 소켓 반환
+
+BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+BufferedWriter out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+//Socket 객체의 getInputStream(), getOutputStream() 메소드를 사용하여 입출력 스트림을 생성.
+~~~
 
 |연결과정|
 |-|
@@ -84,13 +106,6 @@ TCP/IP 네트워크를 이용하여 쉽게 통신 프로그램을 작성하도�
 |3. <span style="color:#00FFFF">  서버 - 포트 - 리슨  </span> <-연결요청 <span style="color:orange">  포트 - 클라이언트 2  </span> <br>
 <span style="color:teal">  클라이언트  </span> <-연결요청 <span style="color:orange"> 포트 - 클라이언트 1 </span>|
 
-~~~java
-ServerSocket serverSocket = new ServerSocket(port);
-Socket socket = serverSocket.accept();
-BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-BufferedWriter out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-//Socket 객체의 getInputStream(), getOutputStream() 메소드를 사용하여 입출력 스트림을 생성.
-~~~
 
 ## 2. 예제1. 채팅프로그램
 
