@@ -4,7 +4,7 @@ categories:
   - KNU
 tags:
   - Statistics
-  - BigData
+  - test
 toc: true
 ---
 

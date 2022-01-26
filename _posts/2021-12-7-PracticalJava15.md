@@ -122,10 +122,14 @@ BufferedWriter out = new BufferedWriter(new OutputStreamWriter(socket.getOutputS
 
 </th>
 </tr>
+
 <tr>
+
 <th>
 
 ### ServerEx.java
+
+<br>
 
 ~~~java
 import java.io.*;
@@ -178,6 +182,8 @@ public class ServerEx {
 <th>
 
 ### ClientEx.java
+
+<br>
 
 ~~~java
 import java.io.*;
