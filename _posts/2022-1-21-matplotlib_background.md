@@ -11,7 +11,11 @@ tags:
 toc: true
 ---
 
-"다양한 기법을 사용하는 리스크 매트릭스 제작" 포스팅에서 R과 Python을 사용한 scatterchart를 제작하였습니다. R에서는 geom_rect을 통해 사각형을 그리는 방식으로 차트의 배경을 그렸는데, Python에서는 imshow와 필요에 따라 pandas의 구간화 함수인 cut을 통해 이와 같은 scatterchart를 그릴 수 있습니다. <br>
+"다양한 기법을 사용하는 리스크 매트릭스 제작" 포스팅에서 R과 Python을 사용한 scatterchart를 제작하였습니다. 
+
+R에서는 geom_rect을 통해 사각형을 그리는 방식으로 차트의 배경을 그렸는데, Python에서는 imshow와 필요에 따라 pandas의 구간화 함수인 cut을 통해 
+
+이와 같은 scatterchart를 그릴 수 있습니다. <br>
 
 ![img1](/assets/img/plot_risk.png)
 
@@ -76,7 +80,7 @@ figsize는 인치 단위로 조정됩니다. 또한 플롯을 저장할 때 dpi(
 이를 위해 9000000개 컬러 버퍼를 채울 필요는 없습니다.
 판다스에서 제공하는 구간화 함수를 사용해 현재 사용 중인 컬러 버퍼를 3000x3000 어레이에 저장해보겠습니다. 
 
-~~~PYTHON
+~~~python
 #보더에 맞게 값을 조정하기 위해 pandas의 cut을 사용할 것이다.
 import pandas as pd
 
@@ -109,7 +113,7 @@ im=plt.imshow(out,cmap='RdYlGn_r',extent=[0,10,0,10])
 
 ## 3. Patch 적용하기
 
-~~~ PYTHON
+~~~ python
 #matplotlib의 patch를 사용하기 위해 import 한다.
 import matplotlib.patches as mpatches
 
