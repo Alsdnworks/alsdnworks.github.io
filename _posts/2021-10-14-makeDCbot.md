@@ -1,7 +1,7 @@
 ---
-title: 간단한 디스코드 봇 만들기
+title: discord.py를 사용해 항공기 스케쥴봇 만들기
 categories:
-  - python
+  - PYTHON
 tags:
   - bot
   - discord

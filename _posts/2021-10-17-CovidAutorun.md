@@ -1,7 +1,7 @@
 ---
-title: 기숙사 일 일자가 검진 자동화 with 셀레니움
+title: 셀레니움을 사용한 기숙사 일일자가 검진 자동화 
 categories:
-  - python
+  - PYTHON
 tags:
   - bot
   - selenium
@@ -9,7 +9,7 @@ toc: false
 classes: wide
 ---
 
-시험 기간에 나를 귀찮게 만드는 기숙사일 일 검진을 자동화시켰다. <br>
+시험 기간에 나를 귀찮게 만드는 기숙사일일 검진을 자동화시켰다. <br>
 ID과 PSW는 자신의 것으로 입력하면 된다.<br> 
 headless 옵션의 주석을 삭제하면 실행과정을 직접 확인할 수 있다.<br> 
 headless로 사용할 경우 제대로 제출했는지 확인하기 번거로워<br>
