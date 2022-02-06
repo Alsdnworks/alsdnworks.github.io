@@ -8,10 +8,9 @@ author_profile: true
 # <span style="color:#d30cb8"> 👨‍💻Techs What I Interested In; </span>
 
 <table>
-  <thead>
     <tr>
       <td rowspan="3">
-        <img height=500 src= assets/img/main_img1.png>
+        <img height=500 src= "assets/img/main_img1.png">
       </td>
       <td>
         <h2>
@@ -38,10 +37,10 @@ author_profile: true
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
       </td>
     </tr>
-  </thead>
 </table>
 
 <br>
+
 <br>
 
 # <span style="color:#d30cb8"> 👨‍💻STATS; </span>
