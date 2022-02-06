@@ -1,8 +1,8 @@
 ---
-title: "ALSDNWORKS"
-excerpt: ""
+title: " "
+excerpt: " "
 sitemap: false
-permalink: /main.html
+permalink: /
 ---
 ![header](https://capsule-render.vercel.app/api?type=transparent&text=&gt;ALSDNWORKS&animation=blinking&fontColor=0000FF)
 
