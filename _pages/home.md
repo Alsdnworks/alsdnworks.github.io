@@ -1,9 +1,8 @@
 ---
-title: " "
-excerpt: " "
-sitemap: false
+layout: splash
 permalink: /
 ---
+
 ![header](https://capsule-render.vercel.app/api?type=transparent&text=&gt;ALSDNWORKS&animation=blinking&fontColor=0000FF)
 
 ## PDP, Advertisement designer🖌 , Python, C++ developer 🛠 <br> I worked as a designer, undergraduate researcher in Kangwon Univ. as developer <br> Majoring in SW&media👨‍💻 
