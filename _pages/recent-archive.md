@@ -1,6 +1,6 @@
 ---
-title: "Recent Posts"
+title: "Posts"
 layout: home
-permalink: /categories/
+permalink: /recent/
 author_profile: true
 ---
