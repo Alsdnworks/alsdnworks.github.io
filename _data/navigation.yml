@@ -2,6 +2,8 @@
 main:
   - title: "Gallery"
     url: https://alsdnworks.wixsite.com/mysite
+  - title: "Recent Post"
+  url: "/recent/"
   - title: "Category"
     url: "/categories/"
   # - title: "About"
