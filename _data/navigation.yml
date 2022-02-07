@@ -1,9 +1,9 @@
 # main links
 main:
+  - title: "Recent"
+    url: "/recent/"
   - title: "Gallery"
     url: https://alsdnworks.wixsite.com/mysite
-  - title: "Recent Post"
-    url: "/recent/"
   - title: "Category"
     url: "/categories/"
     
