@@ -4,7 +4,7 @@ title: 사운드디자인 참고용 노트 필기 정리
 categories:
   - KNU
 tags:
-  - test
+  - exam
 toc: true
 ---
 

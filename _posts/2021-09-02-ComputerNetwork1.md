@@ -4,7 +4,6 @@ categories:
   - KNU
 tags:
   - Network
-  - OSI
 toc: true
 ---
 
