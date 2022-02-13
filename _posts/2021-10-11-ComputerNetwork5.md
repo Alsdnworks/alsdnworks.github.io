@@ -4,7 +4,6 @@ categories:
   - KNU
 tags:
   - Network
-  - switching
 toc: true
 ---  
 

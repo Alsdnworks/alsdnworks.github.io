@@ -4,7 +4,6 @@ categories:
   - KNU
 tags:
   - JAVA
-  - GUI
 toc: true
 ---
 

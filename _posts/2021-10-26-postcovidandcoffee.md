@@ -1,15 +1,16 @@
 ---
-title: 포스트 코로나 시대에서 원두커피의 미래예측
+title: 포스트 코로나 시대에서 원두커피의 미래예측[KNU 2021-2]
 categories:
-  - KNU
+  - PYTHON
 tags:
-  - coffee
+  - research
 toc: true
 ---
 
 
-포스트 코로나 시대에서 원두커피의 미래예측
-NodeXL을 사용한 SNA분석과 지수평활예측모델을 중심으로
+# 포스트 코로나 시대에서 원두커피의 미래예측
+
+## NodeXL을 사용한 SNA분석과 지수평활예측모델을 중심으로
 
 # 1 서론
 

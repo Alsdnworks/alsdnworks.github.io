@@ -4,7 +4,6 @@ categories:
   - linux
 tags:
   - vscode
-  - GCP, GCE
 toc: true 
 ---
 

@@ -3,8 +3,7 @@ title: 빅데이터 분석 오픈북 참고용 노트 필기 정리
 categories:
   - KNU
 tags:
-  - Statistics
-  - test
+  - exam
 toc: true
 ---
 

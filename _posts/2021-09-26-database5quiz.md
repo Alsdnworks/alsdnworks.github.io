@@ -3,7 +3,6 @@ title: 데이터베이스 5장 기출문제 풀이[KNU 2021-2]
 categories:
   - KNU
 tags:
-  - DBMS
   - Database
 toc: true
 ---

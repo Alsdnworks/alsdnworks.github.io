@@ -3,11 +3,9 @@ title: Matplotlib imshow를 사용해 차트의 배경 그리기
 
 categories:
   - PYTHON
-
 tags:
   - analyze
   - data
-
 toc: true
 ---
 

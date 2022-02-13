@@ -2,9 +2,9 @@
 title: 리눅스에서 C, C++ 컴파일하고 디버깅하기
 categories:
   - linux
+  - CPP
 tags:
-  - compiler
-  - debugger
+  - vim
 toc: true
 classes: wide
 ---

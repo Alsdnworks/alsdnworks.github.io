@@ -4,7 +4,6 @@ categories:
   - PYTHON
 tags:
   - bot
-  - discord
 toc: true
 classes: wide
 ---
