@@ -44,9 +44,24 @@ A^{-1}= \frac{1}{ad-bc}\begin{pmatrix}d, -b\\ -c, a\end{pmatrix}
 det(A)=ad-bc
 $$
 
-A를 이용하여 각각의 두행을 가지고 벡터를 만들어본다면 $\vec{u}=(a,b), \vec{v}=(c,d)$ 일떄 다음 평행사변형은 $||\vec{u}||$를 가로길이로 가지고 높이는 $sin\theta=\frac{h}{||\vec{v}||}$이므로 $h=sin\theta\times||\vec{v}||$
+A를 이용하여 각각의 두행을 가지고 벡터를 만들어본다면 
 
-즉 넓이는 $\theta'=90\degree-\theta$일때
+$\vec{u}=(a,b), \vec{v}=(c,d)$
+
+ 일떄 다음 평행사변형은 
+ $||\vec{u}||$
+ 
+ 를 가로길이로 가지고 높이는 
+ 
+ $sin\theta=\frac{h}{||\vec{v}||}$
+ 
+ 이므로 
+ 
+ $h=sin\theta\times||\vec{v}||$
+
+즉 넓이는 
+
+$\theta'=90\degree-\theta$ 일때
 
 $$
 ||\vec{u}||\times (sin\theta\times||\vec{v}||)\\
