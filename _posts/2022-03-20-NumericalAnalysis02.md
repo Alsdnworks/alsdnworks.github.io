@@ -53,11 +53,11 @@ $\vec{u}=(a,b), \vec{v}=(c,d)$
  
  를 가로길이로 가지고 높이는 
  
- $sin\theta=\frac{h}{||\vec{v}||}$
+$$sin \theta = \frac{h}{|| \vec{v} ||}$$
  
  이므로 
  
- $h=sin\theta\times||\vec{v}||$
+$$h=sin \theta \times || \vec{v} ||$$
 
 즉 넓이는 
 
