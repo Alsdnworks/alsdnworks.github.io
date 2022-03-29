@@ -258,7 +258,7 @@ cv2.ellipse(img, center, axes, angle, startAngle, endAngle, color[, thickness[, 
 |lineType|선의 형태|
 |shift|좌표에 대한 비트 쉬프트 연산|
 
-![pc](/assets/img/cv2Ecl.png)
+
 ![gist](https://user-images.githubusercontent.com/79889482/159846760-44c2107d-f7d3-47e7-99b3-b82b5b72f025.png)
 
 #### 텍스트를 생성하는 함수
