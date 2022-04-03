@@ -8,6 +8,11 @@ tags:
 toc: true
 ---
 
+# concurrent로 파이썬에 날개를 달기
+
+**import antigravity&#33;&#33;**
+
+![ag](/assets/img/ag.jpg)
 
 졸업작품(캡스톤디자인)에 사용할 데이터를 만들기위해 구글어스로 표시되는 Keyhole Markup Language(.kml)에서 좌표만을 출력해 CSV 파일로 저장하고자 한다.
 kml은 xml기반이라 BeautifulSoup의 html.parser를 통해 파싱하는 것이 가능하다.
@@ -17,7 +22,7 @@ kml은 xml기반이라 BeautifulSoup의 html.parser를 통해 파싱하는 것�
 그야말로 계획은 좋았다. 그러나 며칠간 크롤링된 kml 데이터의 양이 지금까지 처리해본 데이터에 비해서 너무 큰 데이터였다는 것이었다. 물론 빅데이터 엔지니어에게는 한 줌 데이터였겠지만 내 컴퓨터로는 이틀이 지나도 끝이 나지 않았고 설상가상으로 버튼 한번 잘못 눌렀다가 꺼져버렸다는 것이다!
 ~~아 오늘 회식이라고요?? (전원버튼꾹)~~
 
-가장 큰 문제는 단일코어로 번갈아 가며 수행하고 있기에 자원이 너무 낭비된다는 것! 파이선이 겨우 CPU의 18%도 사용하지 못하고 있는 상황이었다.
+원인은 단일코어로 번갈아 가며 수행하고 있기에 자원이 너무 낭비된다는 것! 파이썬이 겨우 CPU의 18%도 사용하지 못하고 있는 상황이었다.
 
 ![idiot](/assets/img/idiot.png)
 
@@ -51,7 +56,7 @@ kml은 xml기반이라 BeautifulSoup의 html.parser를 통해 파싱하는 것�
         executor.map(analysis, imported_files)
 ~~~
 
-외부코드 허용 옵션으로 인해 살짝 코드 밖에서 수정할 사항이 있었지만 vscode의 경우 단순히 `launch.json`에 `"justMyCode": false`를 추가하면 된다. 사실 이거 출력에 안 떠서 어디가 문제인지 애를 먹긴 했다.
+외부코드 허용 옵션으로 인해 살짝 코드 밖에서 수정할 사항이 있었지만 vscode의 경우 단순히 `launch.json`에 `"justMyCode": false`를 추가하면 된다. 사실 이거 오류로 안 잡혀서 어디가 문제인지 애를 먹긴 했다.
 
 ![asd](/assets/img/161269103-764e305f-2a37-4239-a33c-862bc4f2512b.png)
 
