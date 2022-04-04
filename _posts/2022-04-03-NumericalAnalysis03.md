@@ -148,39 +148,98 @@ $$
 
 $$x_{n}=y_{n}^{(n-1)}/a_{nn}^{(n-1)},\\x_{n-1}=(y_{n-1}^{(n-2)}/a_{n-2,n-1}^{(n-1)})/a_{n-1,n-1}^{(n-1)} \\ \vdots \\x_{1}=(y_1- \Sigma^{n}_{i=2} a_{1i}x_i)a_{11} $$
 
-### 예제2. 크레머 방식으로 선형방정식 계의 해 구하기
+### 예제2. 가우스 소거법으로 선형방정식 계의 해 구하기
 
-$$2x_{1}+4x_{2}+x_{3}=-2,\\x_{1}+2x_{2}+x_{3}=0.5,\\3x_{1}+4x_{2}+2x_{3}=2$$
+$$
+A= \begin{pmatrix}
+  1 & 2  & 3 \\
+  2 & -3  & 2\\
+  3 & 1  & -1 \\
+ \end{pmatrix}
+ \begin{pmatrix}
+  x_{1} \\
+  x_{2} \\
+  x_{3}
+ \end{pmatrix}
+ =
+  \begin{pmatrix}
+  6 \\
+  14 \\
+ -2 
+ \end{pmatrix}
+ $$
 
-1. inv: 역행렬 계산
-2. det: 행렬식 계산
-3. solve: 선형 연립방정식계의 해 찾기 (cf. scipy.linalg 에 포함된 함수)
+풀이 과정
 
-~~~python
-import numpy as np
-A = np.array([[2, 4, 1], 
-              [1, 2, 1],
-              [3, 4, 2]])
-Y = np.array([-2, 0.5, 2])
-print("AX=Y의 좌변 행렬: ")
-print(A)
-print("AX=Y의 우변 벡터: ")
-print(Y)
-print("행렬 A의 행렬식: ", np.linalg.det(A))
-# 방법1: 계산된 역행렬 이용
-X1 = np.linalg.inv(A) @ Y
-#X1 = np.linalg.inv(A) @ Y.T
-#X1 = np.round(np.linalg.inv(A) @ Y,16)
-print(X1)
-# 방법2: 역행렬 계산과 다른 방법 (예: 행렬 분해 기반의 방법)
-X2 = np.linalg.solve(A,Y)
-#X2 = np.linalg.solve(A,Y.T)
-#X2 = np.round(np.linalg.solve(A,Y),16)
-print(X2)
-diffX = X1 - X2   # 2개의 다른 알고리즘(inv, solve)으로 구현된 함수를 이용하여 찾아진 해 비교(X1 vs X2)
-print(diffX)
-~~~
+$$
+AX=Y\\
+A^{1,1}X=Y^{1}\\
+A^{2,1}X=Y^{2}\\
+\vdots\\
+\coprod X=Z
+$$
 
-$$ x_{1}=\frac{det(A_{(1)})}{det(A)}=\frac{2}{2}=1\\x_{2}=\frac{-3.5}{2}=1.75\\x_{3}=\frac{6}{2}=3 $$
+A를 확장행렬로 나타낸 결과
+
+$$
+\begin{pmatrix}
+  1 & 2  & 3 & : & 6 \Rightarrow R1\\
+  2 & -3  & 2 & : & 14 \Rightarrow R2\\
+  3 & 1  & -1 & : & -2 \Rightarrow R3\\
+ \end{pmatrix}
+$$
+
+2,3,을 0으로 만들기 위해 빼줄것이다. $a_{1,1}$은 1이므로 상수배를 하면 소거 가능하다 $m_{y,x}= a{y,x}$를 0으로 만드는 수
+
+$$
+m_{2,1}=\frac{a_{2,1}}{a_{1,1}}=2 \Rightarrow R_2-m_{2,1}R1 \Rightarrow R_2-2*R1\\
+m_{3,1}=\frac{a_{3,1}}{a_{1,1}}=3 \Rightarrow R_3-m_{3,1}R1 \Rightarrow R_3-3*R1\\
+\\
+=
+\\
+\begin{pmatrix}
+  1 & 2  & 3 & : & 6 \Rightarrow R1\\
+  2-(2*1) & -3-(2*2)  & 2-(2*3) & : & 14-(2*6) \Rightarrow R2\\
+  3-(3*1) & 1-(3*2)  & -1-(3*3) & : & -2-(3*6) \Rightarrow R3\\
+ \end{pmatrix}\\
+ =
+\\
+\begin{pmatrix}
+  1 & 2  & 3 & : & 6 \Rightarrow R1\\
+  0 & -7  & -4 & : & 2 \Rightarrow R2\\
+  0 & -5  & -10 & : & -20 \Rightarrow R3\\
+ \end{pmatrix}
+$$
+
+$$
+m_{3,2}=\frac{a_{3,2}}{a_{2,2}}=\frac{-5}{-7}=\frac{5}{7} \cdots
+$$
+
+계산결과
+
+$$
+\begin{pmatrix}
+  1 & 2  & 3 \\
+  0 & -7  & 4\\
+  0 & 0  & -\frac{50}{7} \\
+ \end{pmatrix}
+ \begin{pmatrix}
+  x_{1} \\
+  x_{2} \\
+  x_{3} \\
+ \end{pmatrix}
+ =
+  \begin{pmatrix}
+  6 \\
+  2 \\
+\frac{-150}{7}
+ \end{pmatrix}
+$$
+
+$$
+  x_{1}=1 \\
+  x_{2}=-2 \\
+  x_{3}=3 \\
+$$
 
 **교수님: 쉬우니까 손계산으로도 풀어보자!**
