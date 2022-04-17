@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Truffle"
-  avatar           : "/assets/KakaoTalk_20210820_153627158.jpg" # 프로필 이미지
+  avatar           : "https://avatars.githubusercontent.com/u/79889482?v=4" # 프로필 이미지
   bio              : "KNU SW&media <br> 일단 뭐든 해보자고."
   location         : "Samcheok"
   email            : "alsdnworks@gmail.com"
