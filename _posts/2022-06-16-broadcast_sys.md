@@ -1,5 +1,5 @@
 ---
-title: 디자인과 생활[KNU 2022-1]
+title: 방송통신시스템 기말요약[KNU 2022-1]
 categories:
   - KNU
 tags:
