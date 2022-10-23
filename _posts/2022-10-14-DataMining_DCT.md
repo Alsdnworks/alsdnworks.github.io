@@ -119,10 +119,10 @@ C4.5 방법은 CART방법과 유사하다.
 
 ### 1.4. 기타방법
 
-- CHAID
-- QUEST
-- CRUISE
-- 등등(시간날때 정리함)
+> - CHAID
+> - QUEST
+> - CRUISE
+> - 등등(시간날때 정리함)
 
 ## 2. Decision Tree Classifier: 크기 선택방법
   
