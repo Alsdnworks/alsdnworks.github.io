@@ -1,5 +1,5 @@
 ---
-title: 데이터마이닝 제 2,3강 작성중[KNU 2022-2]
+title: 데이터마이닝 제 2,3강[KNU 2022-2]
 categories:
   - KNU
 tags:
