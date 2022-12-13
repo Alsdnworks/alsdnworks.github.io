@@ -1,5 +1,5 @@
 ---
-title: 데이터마이닝 제 9~14강[KNU 2022-2]
+title: 데이터마이닝 제 9부터 14강[KNU 2022-2]
 categories:
   - KNU
 tags:
