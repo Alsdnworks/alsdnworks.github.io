@@ -27,7 +27,7 @@ toc: true
 
  입력층은 3개의 변수($x_1,x_2,x_3$)로 구성되어 있고, 1로 구성된 상수항을 포함한다. 출력층은 변없이 입력변수의 가중 평균으로 표현된다 가중치는 입력노드 옆에 표시되는 $w_n$, 합성함수는 입력변수를 결합하는 함수
 
-![picture 2](images/30148e54a8a18ac1afe648394cab112ea6815c8beb5dcf098a2b5b34b2eba739.png)  
+![picture 2](/assets/img/30148e54a8a18ac1afe648394cab112ea6815c8beb5dcf098a2b5b34b2eba739.png)  
 
  $y_1 = w_0+w_1x_1 + w_2x_2 + w_3x_3$
 
@@ -39,7 +39,7 @@ $$sigmoid(x) = \frac{1}{1+e^{-x}}$$
 
 비선형적인 신경망 작동원리를 구현하기 위해서는 다층 신경망이 적절하다
 
-![picture 1](images/09ec2842c72fd82b12fd9db32eeeba8b67deb34f3b230a8814a3f77628ff40fa.png)  
+![picture 1](/assets/img/09ec2842c72fd82b12fd9db32eeeba8b67deb34f3b230a8814a3f77628ff40fa.png)  
 
 $H_1 = f_1(w_{01}+w_{11}x_1+\cdots+w_{n1}x_n)$
 
@@ -91,7 +91,7 @@ $-\sum_{i=1}^n(y_i\log{(p_i)}+(1-y_i)\log{(1-p_i)})$
 
 ### 1.3.1. 초기가중치와 학습률
 
-가중치의 초기값을 정하는 방법으로는 각 모수에 난수를 이용하여 임의로 값을 지정하고 목적함수 관점에서 성능이 가장좋은 초기값을 선택하는 방법이 있다![picture 3](c:\Users\SON\Desktop\KNU2022-2\%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A7%88%EC%9D%B4%EB%8B%9D\images\09ec2842c72fd82b12fd9db32eeeba8b67deb34f3b230a8814a3f77628ff40fa.png)  
+가중치의 초기값을 정하는 방법으로는 각 모수에 난수를 이용하여 임의로 값을 지정하고 목적함수 관점에서 성능이 가장좋은 초기값을 선택하는 방법이 있다![picture 3](/assets/img/ %EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A7%88%EC%9D%B4%EB%8B%9D\images\09ec2842c72fd82b12fd9db32eeeba8b67deb34f3b230a8814a3f77628ff40fa.png)  
 
 역전파 알고리즘3단계에서 연결 가중치의 조절 정도를 학습률(learning rate)라고 한다. 학습률이 너무 크면 최적의 가중치를 찾지 못하고 학습률이 너무 작으면 학습이 느려지는 단점이 있다.
 
@@ -251,7 +251,7 @@ $$ Minkowski\;distance\;d_{ik} = \left(\sum_{j=1}^p|x_{ij}-x_{kj}|^m\right)^{1/m
 
 자료의 i번째 개체와 k번째 개체의 dissimilarity를 $d_{ik}$라고 하고 군집p와 q의 dissimilarity를 $d_{pq}$라고 할때 개체 간의 dissimilarity는 다음과 같이 정의된다.
 
-![picture 4](images/8f90d23563ea9a431a8f3969e28340bf9b69fcf6dc0dd9bcb8a32b40693c5850.png)  
+![picture 4](/assets/img/8f90d23563ea9a431a8f3969e28340bf9b69fcf6dc0dd9bcb8a32b40693c5850.png)  
 
 |연결법|방법|
 |:---|:---|
